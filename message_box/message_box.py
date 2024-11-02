@@ -26,9 +26,9 @@ class AppMsg:
         self.root.config(bg=darkgrey)
         self.root.overrideredirect(True)
 
-        self.info=IMG.get_image('icons/message_box/info.png')
-        self.warning=IMG.get_image('icons/message_box/warning.png')
-        self.error=IMG.get_image('icons/message_box/error.png')
+        self.info=IMG.get_image('icons/indication/info.png')
+        self.warning=IMG.get_image('icons/indication/warning.png')
+        self.error=IMG.get_image('icons/indication/error.png')
         
         self.close=IMG.get_image('icons/window/close.png')
 
